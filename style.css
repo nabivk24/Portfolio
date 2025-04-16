@@ -1,0 +1,155 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f2f2;
+  color: #333;
+}
+
+header {
+  background: #620505;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  top: 0;
+  position: sticky;
+}
+
+.header {
+  color: white;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 10% 2%;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  color: #222;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 350px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.resume-button:hover {
+  background: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.project-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.project-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.project-link {
+  margin-top: 10px;
+}
+
+.contact-info img.icon {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+footer {
+  background: #620505;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#skills, #education {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+  text-align: center;
+}
+
+#skills img, #education img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  #skills, #education {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #skills img, #education img {  
+    margin-bottom: 20px;  
+  }
+}
+
+.center {
+  text-align: center;
+}
